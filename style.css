@@ -1,3 +1,9 @@
+html{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
 #main-menu {
     font-size: small;
 }
@@ -9,11 +15,9 @@ main {
 
 h1{
     font-family: 'Bad Script', cursive;
+    font-size: medium;
 }
-img {
-    height: 75px;
-    width: 500px;
-}
+
 
 #about-box {
     background-color: #fef9ef;
