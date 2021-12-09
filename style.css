@@ -1,25 +1,61 @@
 #main-menu {
     font-size: small;
-    position: fixed;
 }
 
-ul {
+main {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+h1{
+    font-family: 'Bad Script', cursive;
+}
+img {
+    height: 75px;
+    width: 500px;
+}
+
+#about-box {
+    background-color: #fef9ef;
+    size: 75px;
+}
+
+#main-menu ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-li {
+#main-menu li {
     float: left;
 }
 
-li a {
-    color: white;
+#main-menu li a {
+    color: black;
     text-align: center;
     padding: 14px 16px;
 }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
+#main-menu li a:hover {
     background-color: rgb(180, 180, 180);
+}
+
+#socials {
+    text-align: justify;
+    list-style-type: none;
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
 }
