@@ -1,8 +1,26 @@
-* {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+#main-menu {
+    position: sticky;
+    font-size: small;
 }
 
-img[src*=Supriya]{
-    width: auto;
-    height: 20px;
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: rgb(180, 180, 180);
 }
