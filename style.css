@@ -1,7 +1,7 @@
 #main-menu {
     font-size: small;
+    position: fixed;
 }
-
 
 ul {
     list-style-type: none;
