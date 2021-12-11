@@ -71,3 +71,7 @@ section {
     color: black;
     background-color: #fef9ef;
 }
+
+.carousel-inner img{
+    height: 600px;
+}
