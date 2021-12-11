@@ -32,18 +32,18 @@ h1 {
     padding: 0;
 }
 
-#main-menu li a {
+#navbarSupportedContent li a {
     color: black;
     text-align: center;
     padding: 14px 16px;
 }
 
 /* Change the link color to #111 (black) on hover */
-#main-menu li a:hover {
+#navbarSupportedContent li a:hover {
     background-color: rgb(180, 180, 180);
 }
 
-#socials ul{
+#socials ul {
     text-align: center;
     list-style-type: none;
 }
@@ -72,7 +72,7 @@ section {
     color: black;
 }
 
-.carousel-caption{
+.carousel-caption {
     opacity: 0.8;
     color: black;
 }
