@@ -74,4 +74,5 @@ section {
 
 .carousel-inner img{
     height: 600px;
+    width:auto;
 }
