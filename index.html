@@ -13,10 +13,54 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<header class="container-fluid">
-    <nav class="navbar navbar-expand-lg bg-light navbar-light fixed-top" id="main-menu">
+<header>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between" id="main-menu">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+
+                <span class="navbar-text p-1">Supriya Thukral</span>
+
+
+
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="#intro">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="#highlights1">About Me</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#current-ventures">Current Ventures</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#looking-ahead">Clubs and Teams</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+    <!--    
+    <nav class="navbar navbar-expand-lg bg-light navbar-light fixed-top" >
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
         <div class="container-fluid">
-            <span class="navbar-text p-1">Supriya Thukral</span>
+            
             <ul class="navbar-nav">
                 <li class="nav-item"><a class="nav-link" href="#intro">Home</a>
                 </li>
@@ -28,7 +72,7 @@
                 </li>
             </ul>
         </div>
-    </nav>
+    </nav>-->
 
 </header>
 
@@ -44,10 +88,19 @@
                 <div class="container-sm">
                     <h1 id="intro">Hi! I'm Supriya!</h1>
                     <p>Some text here</p>
-                    <p id="socials">
-                        <a href="www.instagram.com/chasingmoments" target="_blank" class="fa fa-instagram"></a> <a
-                            href="https://www.linkedin.com/in/supriyathukral/" target="_blank"
-                            class="fa fa-linkedin"></a>
+                    <section id="socials">
+                        <ul>
+                            <li class="nav-item">
+                                <a class="fa fa-linkedin-square" style="font-size:100%" href="" target="_blank"></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="fa fa-github" style="font-size: 100%" href="" target="_blank"></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="fa fa-instagram" style="font-size: 100%" href="" target="_blank"></a>
+                            </li>
+                        </ul>
+                    </section>
                 </div>
 
             </div>
@@ -55,7 +108,7 @@
         </div>
     </section>
 
-    <section class="p-5">
+    <section class="p-5" id="highlights1">
         <div id="highlights" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#highlights" data-bs-slide-to="0" class="active"
@@ -63,22 +116,51 @@
                 <button type="button" data-bs-target="#highlights" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#highlights" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 <button type="button" data-bs-target="#highlights" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#highlights" data-bs-slide-to="4" aria-label="Slide 5"></button>
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="SupriyaThukral.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Bilingual in French/English</h5>
-                        <a href="#french" data-bs-toggle="collapse">Read More</a>
-                        <div id="french" class="collapse">
-                            <p>Throughout high school, I was enrolled in an Enhanced French Program, and in 2014, I
-                                participated in the Explore Ontario program to become fluent in French. I went to the
-                                University of Trois
-                                Rivieres, and it was the best time I had learning about another culture.
-                            </p>
+                        <h5>Published Wedding Photographer</h5>
+                        <a href="#published" data-bs-toggle="collapse">Read More</a>
+                        <div id="published" class="collapse">
+                            <p>In 2015, I quit my part-time job at Starbucks for pursuing my own venture in
+                                photography... And I
+                                made
+                                it! I am published photographer in several wedding magazines such as MunaLuchi Bride,
+                                the Wedding Ring, and Today's Bride!</p>
+                            <p>From doing maybe 5 weddings a year in 2016, in 2021, we closed the year with 36
+                                galleries! I have
+                                since
+                                expanded my one-person team to a team of several photographers and videographers. 2022
+                                is a year is
+                                actually booked up! In 2015, I never would have imagined how much I would learn from
+                                starting a
+                                business.</p>
+                            <p>In 2016, I was accepted in the Starter Company Program, which is a program that has the
+                                goal of
+                                helping
+                                students develop their small business ideas into full-fledged businesses. Throughout the
+                                span of
+                                running
+                                the business, I have worn many hats, including being the first point of contact for all
+                                inquiries,
+                                managing all bookings using a CRM, building a website, managing the SEO of my site to
+                                rank well on
+                                Google, managing the finances and taxes of my business, leveraging social media and
+                                Facebook ads to
+                                meet
+                                couples needing professional photography, and most importantly, making sure each and
+                                every couple
+                                has a
+                                fantastic experience with our team! A wedding day is possibly a family's happiest day,
+                                and I'm so
+                                honoured that we get to celebrate with all our amazing couples!</p>
                         </div>
                     </div>
                 </div>
+
                 <div class="carousel-item">
                     <img src="SupriyaThukral.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
@@ -106,96 +188,122 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="carousel-item">
                     <img src="SupriyaThukral.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
-                        <p>Some representative placeholder content for the third slide.</p>
+                        <h5>Mental Health Advocate</h5>
+                        <a href="#COPE" data-bs-toggle="collapse">Read More</a>
+                        <div id="COPE" class="collapse">
+                            <p>Throughout 2016 and 2017, I also started COPE McMaster's Knowledge Translation Committee.
+                                COPE is a
+                                student club at McMaster University focused on destigmatizing mental health, and
+                                influenced by my coursework in Neuroscience, I had recognized a gap in communication
+                                between the research world and the general population. And so I started tackling this
+                                gap in my own local community. While there is a lot of amzing research readily available
+                                to
+                                students and the community in general, unfortunately not everyone is able to understand
+                                scientific
+                                and
+                                statistical jargon.</p>
+                            <p>And again, much like in the other initiatives I've been a part of, I had an amazing team
+                                who made
+                                this
+                                Knowledge Translation initiative a reality. I worked with a team of 15 students that I
+                                had vetted to be passionate about knowledge translation, and off we went to work. This
+                                was such a great opportunity for me to share something that I was passionate about, and
+                                even more excited to be able to put my skills acquired from my research courses to good
+                                use.</p>
+                        </div>
                     </div>
                 </div>
+
                 <div class="carousel-item">
-                    <div class="card">
-                        <div class="card-body">Basic card</div>
+                    <img src="SupriyaThukral.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Bilingual in French/English</h5>
+                        <a href="#french" data-bs-toggle="collapse">Read More</a>
+                        <div id="french" class="collapse">
+                            <p>Throughout high school, I was enrolled in an Enhanced French Program, and in 2014, I
+                                participated in the Explore Ontario program to become fluent in French. I went to the
+                                University of Trois
+                                Rivieres, and it was the best time I had learning about another culture.
+                            </p>
+                        </div>
                     </div>
                 </div>
+
+
+
+
+
+                <div class="carousel-item">
+                    <img src="SupriyaThukral.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>MOON Club</h5>
+                        <p>McMaster University to the MOON!</p>
+                        <a href="#moon" data-bs-toggle="collapse">Read More</a>
+                        <div id="moon" class="collapse">
+                            <p>I've always had an interest in space exploration, and in 2016, I led one of McMaster's
+                                first astronomy club,
+                                and
+                                we had an AMAZING team who really made our educational events happen. We hosted many
+                                star gazing
+                                nights,
+                                as well as visits to the McMaster planetarium. Aside from just hosting these events, one
+                                of the
+                                biggest
+                                takeaways I've had from university clubs is the social outlet that they provide for
+                                students.
+                                Sometimes,
+                                clubs are the only opportunity that students have to build real world skills, as well as
+                                social
+                                skills.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#highlights" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#highlights" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#highlights" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#highlights" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
 
-        <article>
-            <figure>
-                <img>
-            </figure>
+            <article>
+                <figure>
+                    <img>
+                </figure>
 
-        </article>
+            </article>
 
-        <article>
-            <figure>
-                <img>
-            </figure>
-            <p>I've always had an interest in space exploration, and in 2016, I led McMaster's first astronomy club, and
-                we had an AMAZING team who really made our educational events happen. We hosted many star gazing nights,
-                as well as visits to the McMaster planetarium. Aside from just hosting these events, one of the biggest
-                takeaways I've had from university clubs is the social outlet that they provide for students. Sometimes,
-                clubs are the only opportunity that students have to build real world skills, as well as social skills.
+            <article>
+                <figure>
+                    <img>
+                </figure>
+
+            </article>
+
+            <article>
+                <figure>
+                    <img>
+                </figure>
+                <p>And last but not least, on December 7, 2021, I was featured on Narcity, doing what I do best: eating
+                    pizza at Earth to Table Bread Bar!</p>
+            </article>
+
+            <p>When I'm not learning about data structures and algorithms, I'm out photographing couples,
+                celebrating their wedding day with their closest friends and family.
+                <br>I have been running <a href="https://www.chasingmoments.ca" target="_blank">Chasing Moments</a>
+                since
+                December, 2015, and have loved seeing this passion project
+                grow into something meaningful.
             </p>
-        </article>
-
-        <article>
-            <figure>
-                <img>
-            </figure>
-            <p>In 2015, I quit my part-time job at Starbucks for pursuing my own venture in photography... And I made
-                it! I am published photographer in several wedding magazines. My last publication was in MunaLuchi
-                Bride.</p>
-            <p>From doing maybe 5 weddings a year in 2016, in 2021, we closed the year with 36 galleries! I have since
-                expanded my one-person team to a team of several photographers and videographers. 2022 is a year is
-                actually booked up! In 2015, I never would have imagined how much I would learn from starting a
-                business.</p>
-            <p>In 2016, I was accepted in the Starter Company Program, which is a program that has the goal of helping
-                students develop their small business ideas into full-fledged businesses. Throughout the span of running
-                the business, I have worn many hats, including being the first point of contact for all inquiries,
-                managing all bookings using a CRM, building a website, managing the SEO of my site to rank well on
-                Google, managing the finances and taxes of my business, leveraging social media and Facebook ads to meet
-                couples needing professional photography, and most importantly, making sure each and every couple has a
-                fantastic experience with our team! A wedding day is possibly a family's happiest day, and I'm so
-                honoured that we get to celebrate with all our amazing couples!</p>
-        </article>
-
-        <article>
-            <figure>
-                <img>
-            </figure>
-            <p>Throughout 2016 and 2017, I also started COPE McMaster's Knowledge Translation Committee. COPE is a
-                McMaster club focused on destigmatizing mental health, and I had recognized the gap of evidence-based
-                information for the McMaster community. While there is a lot of amzing research readily available to
-                students and the community in general, unfortunately not everyone is able to understand scientific and
-                statistical jargon.</p>
-            <p>And again, much like in the other initiatives I've been a part of, I had an amazing team who made this
-                Knowledge Translation initiative a reality.</p>
-        </article>
-
-        <article>
-            <figure>
-                <img>
-            </figure>
-            <p>And last but not least, on December 7, 2021, I was featured on Narcity, doing what I do best: eating
-                pizza at Earth to Table Bread Bar!</p>
-        </article>
-
-        <p>When I'm not learning about data structures and algorithms, I'm out photographing couples,
-            celebrating their wedding day with their closest friends and family.
-            <br>I have been running <a href="https://www.chasingmoments.ca" target="_blank">Chasing Moments</a> since
-            December, 2015, and have loved seeing this passion project
-            grow into something meaningful.
-        </p>
 
     </section>
 
@@ -210,7 +318,7 @@
             <p>While running my photography business, and collaborating with other businesses, I had realized that I
                 really wanted to equip other small businesses with the tools to succeed. When the pandemic started in
                 2020, this was even more important for mom and pop shops where the businesses sometimes did not even
-                have a website. I worked with a makeup artist to help her with her website, as well as teah her about
+                have a website. I worked with a makeup artist to help her with her website, as well as teach her about
                 all the FREE tools available to her for running a successful business.</p>
             <p>And eventually, the behind-the-scenes work of mantaining a website became my obsession. I studied the
                 various methods a person could go about building their own website: WordPress versus Wix versus

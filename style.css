@@ -5,7 +5,7 @@ html {
 
 
 #main-menu {
-    font-size: small;
+    font-size: medium;
     padding-left: 10%;
     padding-right: 10%;
 }
@@ -32,10 +32,6 @@ h1 {
     padding: 0;
 }
 
-#main-menu li {
-    float: left;
-}
-
 #main-menu li a {
     color: black;
     text-align: center;
@@ -47,14 +43,13 @@ h1 {
     background-color: rgb(180, 180, 180);
 }
 
-#socials {
-    text-align: justify;
+#socials ul{
+    text-align: center;
     list-style-type: none;
 }
 
 
 .fa {
-    padding: 20px;
     font-size: 30px;
     width: 50px;
     text-align: center;
