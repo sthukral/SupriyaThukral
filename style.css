@@ -17,7 +17,7 @@ main {
 
 h1 {
     font-family: 'Bad Script', cursive;
-    font-size: medium;
+    font-size: large;
 }
 
 
@@ -66,13 +66,8 @@ section {
     text-align: justify;
 }
 
-.collapse {
-    background-color: white;
-    opacity: 0.7;
-    color: black;
-}
-
 .carousel-caption {
     opacity: 0.8;
     color: black;
+    background-color: #fef9ef;
 }
