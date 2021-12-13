@@ -1,13 +1,16 @@
 html {
-    padding-top: 5%;
+    padding-top: 6%;
 }
 
-#main-menu {
+#navbarSupportedContent{
     font-size: medium;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 4%;
 }
 
+.navbar-toggler, .navbar, .navbar-expand-lg, .navbar-light, .bg-light{
+    background-color: #FEF9EF;
+
+}
 main {
     padding-left: 70px;
     padding-right: 70px;
@@ -19,7 +22,7 @@ h1 {
     padding-top: 2%;
 }
 
-p {
+p, a{
     font-family: 'Lato', sans-serif;
     font-size: medium;
 }
@@ -36,14 +39,15 @@ p {
 }
 
 #navbarSupportedContent li a {
-    color: black;
+    color: black; 
     text-align: center;
     padding: 14px 16px;
 }
 
 /* Change the link color to #111 (black) on hover */
 #navbarSupportedContent li a:hover {
-    background-color: rgb(180, 180, 180);
+    background-color: #EDA26D;
+    color: white;
 }
 
 #socials ul {
@@ -58,10 +62,12 @@ p {
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
+    color: #EDA26D;
 }
 
 .fa:hover {
     opacity: 0.7;
+    color: black;
 }
 
 section {
@@ -71,7 +77,7 @@ section {
 
 .carousel-inner img {
     width: auto;
-    height: 400px;
+    max-height: 400px;
 }
 
 .carousel-control-prev, .carousel-control-next {
@@ -85,6 +91,3 @@ section {
     padding-right: 7%;
 }
 
-#intro .container {
-    height: 500px;
-}
