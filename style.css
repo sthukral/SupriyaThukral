@@ -70,8 +70,8 @@ section {
 }
 
 .carousel-inner img {
-    max-width: 90%;
-    height: auto;
+    width: auto;
+    height: 400px;
 }
 
 .carousel-control-prev, .carousel-control-next {
