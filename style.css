@@ -41,7 +41,7 @@ h1 {
 
 #about-box {
     background-color: #fef9ef;
-    size: 75px;
+    height: fit-content;
 }
 
 #main-menu ul {
