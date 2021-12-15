@@ -2,29 +2,41 @@ html {
     padding-top: 6%;
 }
 
-#navbarSupportedContent{
+#navbarSupportedContent {
     font-size: medium;
     padding-left: 4%;
 }
 
-.navbar-toggler, .navbar, .navbar-expand-lg, .navbar-light, .bg-light{
+.navbar-toggler, .navbar, .navbar-expand-lg, .navbar-light, .bg-light {
     background-color: #FEF9EF;
 
 }
+
 main {
     padding-left: 70px;
     padding-right: 70px;
 }
 
-h1 {
+#intro {
     font-family: 'Bad Script', cursive;
     font-size: x-large;
+    font-weight: normal;
     padding-top: 2%;
 }
 
-p, a{
+p, a {
     font-family: 'Lato', sans-serif;
     font-size: medium;
+}
+
+p{
+    color: black;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    color: black;
 }
 
 #about-box {
@@ -39,7 +51,7 @@ p, a{
 }
 
 #navbarSupportedContent li a {
-    color: black; 
+    color: black;
     text-align: center;
     padding: 14px 16px;
 }
@@ -55,6 +67,20 @@ p, a{
     list-style-type: none;
 }
 
+#venture-jumbotron{
+    background-color: #EDA26D;
+    padding: 10%;
+    color: #fef9ef;
+}
+
+#venture-jumbotron h1, #venture-jumbotron p{
+    color: #fef9ef;
+}
+
+#venture-list{
+    width: 90%;
+    margin-top: 5%;
+}
 
 .fa {
     font-size: 200%;
@@ -75,19 +101,44 @@ section {
     text-align: justify;
 }
 
+
 .carousel-inner img {
     width: auto;
     max-height: 400px;
 }
 
 .carousel-control-prev, .carousel-control-next {
-    background-color: black;
-    opacity: 30%;
-    width: 5%;
+    background-color: #EDA26D;
+    opacity: 10%;
+    width: 10%;
 }
+
+.carousel-control-next:hover, .carousel-control-prev:hover {
+    background-color: #EDA26D;
+    opacity: 30%;
+}
+
+.carousel-control-next:focus, .carousel-control-prev:focus {
+    background-color: #EDA26D;
+    opacity: 20%;
+}
+
 
 .figure-caption {
-    padding-left: 7%;
-    padding-right: 7%;
+    padding-left: 12%;
+    padding-right: 12%;
 }
 
+
+/*Responsive characteristics*/
+@media (max-width: 40em) {
+
+    main{
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    #about-box figure{
+        background-color: #fef9ef;
+        width: fit-content;
+    }
+  }
