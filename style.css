@@ -13,8 +13,8 @@ html {
 }
 
 main {
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 #intro {
@@ -41,7 +41,7 @@ h1 {
 
 #about-box {
     background-color: #fef9ef;
-    height: fit-content;
+    padding: 5%;
 }
 
 #main-menu ul {
@@ -132,7 +132,6 @@ section {
 
 /*Responsive characteristics*/
 @media (max-width: 40em) {
-
     main{
         padding-left: 1%;
         padding-right: 1%;
