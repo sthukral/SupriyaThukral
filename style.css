@@ -29,13 +29,13 @@ p, a {
     font-size: medium;
 }
 
-p{
+p {
     color: black;
 }
 
 h1 {
-    font-family: 'Roboto', sans-serif;
-    font-size: large;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: x-large;
     color: black;
 }
 
@@ -67,17 +67,17 @@ h1 {
     list-style-type: none;
 }
 
-#venture-jumbotron{
+#venture-jumbotron {
     background-color: #EDA26D;
     padding: 10%;
     color: #fef9ef;
 }
 
-#venture-jumbotron h1, #venture-jumbotron p{
+#venture-jumbotron h1, #venture-jumbotron p {
     color: #fef9ef;
 }
 
-#venture-list{
+#venture-list {
     width: 90%;
     margin-top: 5%;
 }
@@ -100,7 +100,6 @@ section {
     margin-bottom: 20px;
     text-align: justify;
 }
-
 
 .carousel-inner img {
     width: auto;
@@ -132,12 +131,37 @@ section {
 
 /*Responsive characteristics*/
 @media (max-width: 40em) {
-    main{
+    main {
         padding-left: 1%;
         padding-right: 1%;
     }
-    #about-box figure{
-        background-color: #fef9ef;
+
+    #about-box figure {
         width: fit-content;
     }
-  }
+
+    .carousel-control-prev, .carousel-control-next {
+        background-color: #EDA26D;
+        opacity: 10%;
+        width: 12%;
+    }
+
+    .figure-caption {
+        padding-top: 2%;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
+    #highlights1{
+        text-align: center;
+        padding: 1%;
+    }
+
+    #venture-jumbotron {
+        text-align: left;
+    }
+
+    #venture-list {
+        padding: 1%;
+    }
+}
